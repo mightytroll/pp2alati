@@ -1,0 +1,23 @@
+{
+    "name": "pp2alati",
+    "version": "1.0.0",
+    "description": "Pomoćne funkcije za zadatke iz PP2",
+    "main": "index.js",
+    "scripts": {
+        "test": "node tests.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/mightytroll/pp2alati.git"
+    },
+    "keywords": [
+        "pp2",
+        "nodejs"
+    ],
+    "author": "Igor",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mightytroll/pp2alati/issues"
+    },
+    "homepage": "https://github.com/mightytroll/pp2alati#readme"
+}
