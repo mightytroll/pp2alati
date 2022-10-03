@@ -4,7 +4,7 @@ module.exports = {
     },
 
     arrayLog(a) {
-        process.stdout.write(a);
+        process.stdout.write(arrayToString(a));
         process.stdout.write("\n");
     },
 
@@ -16,8 +16,8 @@ module.exports = {
         return Math.abs(n).toString(2).padStart(p, "0");
     },
 
-    binLog(n) {
-        process.stdout.write(n);
+    binLog(n, p = 8) {
+        process.stdout.write(intToBin(n, p));
         process.stdout.write("\n");
     }
 };
