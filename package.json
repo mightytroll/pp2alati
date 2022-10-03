@@ -1,6 +1,6 @@
 {
     "name": "pp2alati",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Pomoćne funkcije za zadatke iz PP2",
     "main": "index.js",
     "scripts": {
