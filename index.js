@@ -20,10 +20,25 @@ function binLog(n, p = 8) {
     process.stdout.write("\n");
 }
 
+function matrixLog(m) {
+    for (let i=0; i<m.length; i++) {
+        for (let j=0; j<m[i].length; j++) {
+            process.stdout.write(`${m[i][j]}`);
+            if (j<m[i].length-1) {
+                process.stdout.write(" ");
+            }
+            else {
+                process.stdout.write("\n");
+            }
+        }
+    }
+}
+
 module.exports = {
     arrayToString,
     arrayLog,
     intToBin,
-    binLog
+    binLog,
+    matrixLog
 };
 
